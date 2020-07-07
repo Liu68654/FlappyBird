@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlappyBird</title>
+    <link rel="stylesheet" href="assets/flappybird.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="icon" href="images/bird.png">
+</head>
+<body>
+    <div id="game">
+        <div class="bird"></div>
+        <div class="start start-blue">点击开始</div>
+        <div class="score">0</div>
+        <div class="mask"></div>
+        <div class="end">
+            <div class="bg"></div>
+            <div class="gameover">game over</div>
+            <div class="result">your result:</div>
+            <div class="final-score">0</div>
+            <ul class="rank-list">
+                <li class="rank-item">
+                    <span class="rank-degree">1</span>
+                    <span class="rank-score">1</span>
+                    <span class="rank-time">2020.06.23 12:12:12</span>
+                </li>
+                <li class="rank-item">
+                    <span class="rank-degree">1</span>
+                    <span class="rank-score">1</span>
+                    <span class="rank-time">2020.06.23 12:12:12</span>
+                </li>
+                <li class="rank-item">
+                    <span class="rank-degree">3</span>
+                    <span class="rank-score">1</span>
+                    <span class="rank-time">2020.06.23 12:12:12</span>
+                </li>
+                <li class="rank-item">
+                    <span class="rank-degree">1</span>
+                    <span class="rank-score">1</span>
+                    <span class="rank-time">2020.06.23 12:12:12</span>
+                </li>
+                <li class="rank-item">
+                    <span class="rank-degree">1</span>
+                    <span class="rank-score">1</span>
+                    <span class="rank-time">2020.06.23 12:12:12</span>
+                </li>
+            </ul>
+            <div class="restart"><span>重新开始</span></div>
+        </div>
+    </div>
+<script src="tools.js"></script>
+<script src="flappybird.js"></script>
+<script>flappybird.init();</script>
+</body>
+</html>
